@@ -9,3 +9,6 @@ void main() {
   String bankWithDraw = iBank.withDraw();
   debugPrint("the bank with draw is $bankWithDraw");
 }
+
+
+// Factory Method Pattern
