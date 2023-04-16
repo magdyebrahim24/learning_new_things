@@ -1,4 +1,4 @@
-import 'package:learning_new_things/design_patterns/abstract_factory/products/i_payment_card.dart';
+import 'i_payment_card.dart';
 
 class VisaPaymentCard implements IPaymentCard {
   @override

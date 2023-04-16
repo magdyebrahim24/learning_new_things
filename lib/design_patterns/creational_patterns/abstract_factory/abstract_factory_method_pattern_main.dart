@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:learning_new_things/design_patterns/abstract_factory/products/i_payment_card.dart';
-import 'package:learning_new_things/design_patterns/factory_method/products/i_bank.dart';
+import 'package:learning_new_things/design_patterns/creational_patterns/abstract_factory/products/i_payment_card.dart';
+import 'package:learning_new_things/design_patterns/creational_patterns/factory_method/products/i_bank.dart';
 import 'factory/bank_factory.dart';
 
 void main() {

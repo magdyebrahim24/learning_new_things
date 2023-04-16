@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learning_new_things/design_patterns/singleton/singleton_pattern_imp.dart';
+
+import 'singleton_pattern_imp.dart';
 
 class SingletonPage extends StatefulWidget {
   const SingletonPage({Key? key}) : super(key: key);

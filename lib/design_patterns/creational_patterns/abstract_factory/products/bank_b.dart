@@ -1,5 +1,6 @@
 
-import 'package:learning_new_things/design_patterns/factory_method/products/i_bank.dart';
+
+import '../../factory_method/products/i_bank.dart';
 
 class BankB implements IBank{
 
