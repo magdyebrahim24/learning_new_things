@@ -16,11 +16,3 @@ class InventoryOrder {
     return "your items are ==> $itemsSold\n---------------------\nOrder Number Is : 1234560";
   }
 }
-
-
-void main(){
-  ShoppingBasket shoppingBasket = ShoppingBasket();
-  InventoryOrder inventoryOrder =InventoryOrder();
-
-  print(inventoryOrder.createOrder(shoppingBasket, '123456'));
-}

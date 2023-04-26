@@ -14,7 +14,7 @@ class PurchaseInvoice {
       invoice.totalAmount += (item.productPrice ?? 1 * (item.quantity ?? 1));
     }
 
-    // applay discount
+    // apply discount
     if(items.length > 5) invoice.discount = 20;
 
     invoice.netTotal = invoice.totalAmount - invoice.discount;

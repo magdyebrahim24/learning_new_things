@@ -1,6 +1,10 @@
 
 
 class BasketItem{
+  BasketItem({this.productName,this.productId,this.quantity,this.productPrice,this.productDes});
+
+
+
   double? productId;
   double? productPrice;
   double? quantity;
