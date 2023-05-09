@@ -16,3 +16,21 @@ class SingletonPattern {
 class SingletonPatternSecondWay {
   SingletonPatternSecondWay._();
 }
+
+
+
+class SocialAuthPackagesResultSingleton {
+  SocialAuthPackagesResultSingleton._();
+
+  static SocialAuthPackagesResultSingleton instance =
+  SocialAuthPackagesResultSingleton._();
+
+  int x = 0;
+
+  void setValue(int y) {
+    x = y;
+    print('xxxxx $x');
+  }
+
+  void printX() => print(x);
+}
